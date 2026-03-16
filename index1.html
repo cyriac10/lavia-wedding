@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lavie Event Management</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- JS -->
+    <script defer src="script1.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">Lavie Events</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <h1>Celebrate Life with LaVie</h1>
+    <p>Wedding • Corporate • Birthday • Luxury Events</p><br>
+    <a href="#contact" class="btn">Plan Your Event</a>
+</section>
+
+<!-- ABOUT -->
+<section class="about-us" id="about">
+    <div class="about-container">
+        <h2>About LaVie</h2>
+        <p>
+    Lavie Events is a wedding and event management brand born from a passion
+    for celebrating love and life’s most meaningful moments. Beginning this
+    January, we embark on our journey with a vision to create thoughtfully
+    designed and beautifully executed celebrations.
+</p>
+
+<p>
+    Every wedding tells a unique story, and we bring that story to life with
+    grace, creativity, and care. With a refined eye for detail and a
+    personalised approach, we ensure each celebration reflects the dreams of
+    our clients.
+</p>
+
+<p>
+    At Lavie Events, we don’t just plan events — we create memories that last
+    a lifetime.
+</p>
+
+    </div>
+</section>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/918078067660" class="whatsapp-buttons" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- SERVICES -->
+ 
+<section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">Wedding Planning</div>
+        <div class="card">Birthday Parties</div>
+        <div class="card">Corporate Events</div>
+        <div class="card">Stage Decoration</div>
+        <div class="card">Catering Management</div>
+        <div class="card">Photography & Videography</div>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+    <h2>Our Events</h2>
+
+    <div class="gallery-grid">
+        <img src="images/images1.jpeg" onclick="openImg(this)">
+        <img src="images/images18.jpeg" onclick="openImg(this)">
+        <img src="images/images10.jpeg" onclick="openImg(this)">
+        <img src="images/images6.jpeg" onclick="openImg(this)">
+        <img src="images/images7.jpeg" onclick="openImg(this)">
+        <img src="images/images13.jpeg" onclick="openImg(this)">
+        <img src="images/images14.jpeg" onclick="openImg(this)">
+        <img src="images/images35.jpeg" onclick="openImg(this)">
+        <img src="images/images5.jpeg"  onclick="openImg(this)">
+        <img src="images/images4.jpeg"  onclick="openImg(this)">
+        <img src="images/images9.jpeg"  onclick="openImg(this)">
+        <img src="images/images8.jpeg" onclick="openImg(this)">
+        <!-- Hidden images -->
+        <img src="images/images11.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images12.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images17.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images19.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images20.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images21.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images22.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images23.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images24.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images25.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images26.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images27.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images28.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images29.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images30.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images31.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images32.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images33.jpeg" class="hidden" onclick="openImg(this)">
+        <img src="images/images34.jpeg" class="hidden" onclick="openImg(this)">
+    </div>
+
+    <button class="see-all-btn" onclick="seeAll()">See All</button>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><b>Celebrating Life Together</b></p>
+
+    <div class="contact-details">
+        <p><strong>📍 Address:</strong> LaVie Event Management</p>
+        <p><strong>📞 Phone:</strong> +91 8078067660</p>
+        <p><strong>📧 Email:</strong> lavieweddings17@gmail.com</p>
+        <p><strong>🕒 Working Hours:</strong> Mon – Sun, 9:00 AM – 9:00 PM</p>
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+    <span class="close" onclick="closeImg()">×</span>
+    <img id="lightbox-img">
+</div>
+
+<footer>
+    <p>© 2026 LaVie Events | Celebrate Life Together</p>
+</footer>
+
+</body>
+</html>
