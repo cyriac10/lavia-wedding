@@ -11,5 +11,6 @@ function seeAll() {
     document.querySelectorAll('.hidden').forEach(img => {
         img.classList.remove('hidden');
     });
-    document.querySelector('.see-all-btn').style.display = 'none';
+
+    document.querySelector('.see-all-btn').style.display = "none";
 }
